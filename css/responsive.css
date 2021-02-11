@@ -1,0 +1,90 @@
+/* start process section */
+@media (max-width: 986px) {
+    .card {
+        width: 33%;
+        margin: 2px;
+    }
+}
+@media (max-width: 466px) {
+    .card {
+        width: 100%;
+        margin: 2px;
+    } 
+}
+@media (max-width: 766px) {
+    .process-img {
+        display: none;
+    }  
+}
+@media (max-width: 766px) {
+    .details {
+        width: 100%;
+    } 
+}
+/* End process section */
+
+/* benefit  section */
+@media (min-width: 463px) and (max-width: 935px) {
+    .benefit{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+ 
+    }
+    .benefit-card {
+        width: 48%;
+    }
+    .benefit-card img{
+        width: 100%;
+    }
+}
+@media (max-width: 541px) {
+    .benefit{
+        display: flex;
+        justify-content: space-between;  
+    }
+    .benefit-card {
+        width: 100%;
+    }
+    .benefit-card img{
+        width: 100%;
+    } 
+}
+/* start testimonial  section */
+@media (max-width: 900px) {
+    .test-image{
+        display: none; 
+    }  
+}
+/* end testimonial  section */
+
+
+/* start footer section */
+
+@media only screen and (max-width: 320px) {
+    .nav ul li{
+        margin: 5px;
+    }
+    .social ul {
+        padding: 0px;
+    }
+    .social ul li{
+        padding: 4px;
+    }
+  }
+  @media (min-width: 463px) and (max-width: 796px) {
+    .footer-featured >div{
+        width: 50%; 
+    }
+
+  }
+  @media (max-width: 462px) {
+    .footer-featured > div{
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+  }
+  /* end footer section */
